@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Official Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 98%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 2px solid #2c3e50;
+            padding: 10px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        th {
+            background: #1e90ff;
+            color: white;
+        }
+
+        .day {
+            background: #2c3e50;
+            color: white;
+            font-weight: bold;
+        }
+
+        .lunch {
+            background: #0fe9f1;
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            letter-spacing: 3px;
+        }
+
+        .free {
+            background: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Weekly Class Timetable</h2>
+
+<table>
+    <tr>
+        <th>Day</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>LUNCH</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+    </tr>
+
+    <!-- MONDAY -->
+    <tr>
+        <td class="day">Mon</td>
+        <td>24CS3207-P<br>HC-15D</td>
+        <td>24CS3207-P<br>HC-15D</td>
+        <td>24MT2012-L<br>H-007</td>
+
+        <!-- ✅ SINGLE LUNCH BOX START -->
+        <td class="lunch" rowspan="6">LUNCH</td>
+        <!-- ✅ SINGLE LUNCH BOX END -->
+
+        <td>24MT2012-L<br>H-007</td>
+        <td>24CS2203-L<br>H-006</td>
+        <td>24SDCS02-S<br>H-101</td>
+    </tr>
+
+    <!-- TUESDAY -->
+    <tr>
+        <td class="day">Tue</td>
+        <td>24CS2255F-P<br>H-007</td>
+        <td>24CS2255F-P<br>H-007</td>
+        <td>24CS3207-L<br>H-305</td>
+        <td>24CS3207-L<br>H-305</td>
+        <td>24CS2203-S<br>H-103</td>
+        <td>24SP2111-S<br>H-007</td>
+    </tr>
+
+    <!-- WEDNESDAY -->
+    <tr>
+        <td class="day">Wed</td>
+        <td>24SDCS02-S<br>H-101</td>
+        <td>24SDCS02-S<br>H-101</td>
+        <td>24CS2204-L<br>H-103</td>
+        <td>24CS2204-L<br>H-103</td>
+        <td class="free">Free</td>
+        <td class="free">Free</td>
+    </tr>
+
+    <!-- THURSDAY -->
+    <tr>
+        <td class="day">Thu</td>
+        <td>24CS2255F-L<br>H-305</td>
+        <td>24CS2255F-L<br>H-305</td>
+        <td>24CS2203-L<br>H-006</td>
+        <td>24CS2203-L<br>H-006</td>
+        <td>23UC0014-S<br>HC-15A</td>
+        <td>24CS2204-S<br>H-003</td>
+    </tr>
+
+    <!-- FRIDAY -->
+    <tr>
+        <td class="day">Fri</td>
+        <td>24MT2012-T<br>H-101</td>
+        <td>24MT2012-T<br>H-101</td>
+        <td>24SDCS02-L<br>H-404</td>
+        <td>24CS2203-P<br>H-004</td>
+        <td>24CS2203-P<br>H-004</td>
+        <td class="free">Free</td>
+    </tr>
+
+    <!-- SATURDAY -->
+    <tr>
+        <td class="day">Sat</td>
+        <td>24CS2204-P<br>H-006</td>
+        <td>24CS2204-P<br>H-006</td>
+        <td>24CS2204-L<br>H-103</td>
+        <td>24CS3207-L<br>H-404</td>
+        <td>23UC0014-S<br>H-101</td>
+        <td class="free">Free</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
